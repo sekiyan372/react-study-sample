@@ -1,3 +1,5 @@
+// Access to http://localhost:3000
+
 import React, { VFC } from 'react'
 import logo from '~/logo.svg'
 import '~/App.css'

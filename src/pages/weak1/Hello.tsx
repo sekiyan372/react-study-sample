@@ -1,3 +1,5 @@
+// Access to http://localhost:3000/weak1/hello
+
 import React, { VFC } from 'react'
 
 const App: VFC = () => {
