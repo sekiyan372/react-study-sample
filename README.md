@@ -9,6 +9,9 @@
 
 ## 実行コマンド
 ```bash
+# パッケージインストール
+$ yarn install
+
 # 立ち上げ
 $ yarn start
 ```
