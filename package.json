@@ -1,6 +1,8 @@
 {
-  "name": "study_meeting_sample",
-  "version": "0.1.0",
+  "name": "react_study_sample",
+  "description": "sample program for react study meeting",
+  "author": "sekiyan372 <b1917181@planet.kanazawa-it.ac.jp>",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "react-app-rewired start",
