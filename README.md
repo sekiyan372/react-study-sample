@@ -14,6 +14,12 @@ $ yarn install
 
 # 立ち上げ
 $ yarn start
+
+# コードチェック
+$ yarn lint
+
+# コードフォーマッタ
+$ yarn format
 ```
 
 > note
