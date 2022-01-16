@@ -8,7 +8,7 @@
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
-    "format": "eslint --fix \"src/**/*.{ts,tsx}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "browserslist": {
     "production": [

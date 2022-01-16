@@ -15,7 +15,7 @@ const AppLogoSpin = keyframes`
 
 const App = styled.div`
   text-align: center;
-  `
+`
 
 const AppLogo = styled.img`
   height: 40vmin;
@@ -23,7 +23,7 @@ const AppLogo = styled.img`
   @media (prefers-reduced-motion: no-preference) {
     animation: ${AppLogoSpin} infinite 20s linear;
   }
-  `
+`
 
 const AppHeader = styled.header`
   background-color: #282c34;
@@ -34,7 +34,7 @@ const AppHeader = styled.header`
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  `
+`
 
 const AppLink = styled.a`
   color: #61dafb;
@@ -45,9 +45,7 @@ const StyledComponents: VFC = () => {
     <App>
       <AppHeader>
         <AppLogo src={logo} alt="logo" />
-        <p>
-          weak2 styled-components
-        </p>
+        <p>weak2 styled-components</p>
         <AppLink
           className="App-link"
           href="https://reactjs.org"
