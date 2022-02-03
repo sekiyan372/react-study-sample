@@ -8,8 +8,6 @@
 - node: v16系
 
 ## 実行コマンド
-*Ubuntuの場合はsudoを付けて実行してください
-
 ```bash
 # Node.jsの最新のLTSバージョン(現在はv16)をインストール
 $ npm install -g n
