@@ -9,6 +9,12 @@
 
 ## 実行コマンド
 ```bash
+# Node.jsの最新のLTSバージョン(現在はv16)をインストール
+$ npm install -g n
+$ n lts
+```
+
+```bash
 # パッケージインストール
 $ yarn install
 
