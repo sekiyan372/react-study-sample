@@ -1,4 +1,4 @@
-// Access to http://localhost:3000/week2/component-sample/
+// Access to http://localhost:3000/week2/component/
 
 import React, { VFC } from 'react'
 import Card from '~/components/week2/Card'
