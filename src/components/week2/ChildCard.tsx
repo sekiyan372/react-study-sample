@@ -10,8 +10,10 @@ type Props = {
 const ChildCard: VFC<Props> = ({ id, title, desc }) => {
   return (
     <div>
-      <h2>{ id }: { title }</h2>
-      <div>{ desc }</div>
+      <h2>
+        {id}: {title}
+      </h2>
+      <div>{desc}</div>
     </div>
   )
 }

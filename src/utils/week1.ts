@@ -27,12 +27,12 @@ export const ex2 = () => {
 //結果: TypeScript Angular Vue.js
 export const ex3 = () => {
   const objList = [
-    {id: 1, name: "JavaScript"},
-    {id: 2, name: "TypeScript"},
-    {id: 3, name: "jQuery"},
-    {id: 4, name: "Angular"},
-    {id: 5, name: "React"},
-    {id: 6, name: "Vue.js"},
+    { id: 1, name: 'JavaScript' },
+    { id: 2, name: 'TypeScript' },
+    { id: 3, name: 'jQuery' },
+    { id: 4, name: 'Angular' },
+    { id: 5, name: 'React' },
+    { id: 6, name: 'Vue.js' },
   ]
   //ここに処理を記述
   return objList

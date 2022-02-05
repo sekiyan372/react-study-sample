@@ -10,8 +10,8 @@ const Jsx: VFC = () => {
   return (
     <>
       <h1 className="title">JSX 記法について</h1>
-      <p>{ hello }</p>
-      <p>{ plusOne(100) }</p>
+      <p>{hello}</p>
+      <p>{plusOne(100)}</p>
     </>
   )
 }

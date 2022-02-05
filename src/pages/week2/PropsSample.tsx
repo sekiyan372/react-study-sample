@@ -7,19 +7,19 @@ import ChildCard from '~/components/week2/ChildCard'
 const SampleData = [
   {
     id: 1,
-    title: "サンプル1",
-    desc: "これはサンプルデータ1です。"
+    title: 'サンプル1',
+    desc: 'これはサンプルデータ1です。',
   },
   {
     id: 2,
-    title: "サンプル2",
-    desc: "これはサンプルデータ2です。"
+    title: 'サンプル2',
+    desc: 'これはサンプルデータ2です。',
   },
   {
     id: 3,
-    title: "サンプル3",
-    desc: "これはサンプルデータ3です。"
-  }
+    title: 'サンプル3',
+    desc: 'これはサンプルデータ3です。',
+  },
 ]
 
 const PropsSample: VFC = () => {
@@ -27,7 +27,7 @@ const PropsSample: VFC = () => {
     <>
       <Title>サンプルデータ一覧</Title>
 
-      {SampleData.map(data => (
+      {SampleData.map((data) => (
         <ChildCard
           key={data.id}
           id={data.id}

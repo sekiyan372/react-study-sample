@@ -4,20 +4,20 @@ import React, { VFC } from 'react'
 
 const ExData = [
   {
-    id: "fsn",
-    title: "Fate/stay night",
-    root: "セイバールート",
+    id: 'fsn',
+    title: 'Fate/stay night',
+    root: 'セイバールート',
   },
   {
-    id: "ubw",
-    title: "Unlimited Blade Works",
-    root: "遠坂凛ルート",
+    id: 'ubw',
+    title: 'Unlimited Blade Works',
+    root: '遠坂凛ルート',
   },
   {
-    id: "hf",
+    id: 'hf',
     title: "Heaven's Feel",
-    root: "間桐桜ルート",
-  }
+    root: '間桐桜ルート',
+  },
 ]
 
 /*
