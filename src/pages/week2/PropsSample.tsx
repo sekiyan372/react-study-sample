@@ -27,13 +27,14 @@ const PropsSample: VFC = () => {
     <>
       <Title>サンプルデータ一覧</Title>
 
-      {SampleData.map(data => {
+      {SampleData.map(data => (
         <ChildCard
+          key={data.id}
           id={data.id}
           title={data.title}
           desc={data.desc}
         />
-      })}
+      ))}
     </>
   )
 }

@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week2/jsx/
 
-import React, { VFC } from "react"
+import React, { VFC } from 'react'
 
 const Jsx: VFC = () => {
   const hello = 'こんにちは'

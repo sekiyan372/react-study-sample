@@ -1,4 +1,4 @@
-import React, { VFC } from "react"
+import React, { VFC } from 'react'
 
 const Card: VFC = () => {
   return (

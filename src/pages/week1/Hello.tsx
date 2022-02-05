@@ -3,7 +3,7 @@
 import React, { VFC } from 'react'
 import {
   sample,
-} from '~/utils/week1'
+} from '~/exercise/week1'
 
 const App: VFC = () => {
   sample("Hello World!")
