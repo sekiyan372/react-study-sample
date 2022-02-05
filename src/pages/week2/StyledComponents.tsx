@@ -1,4 +1,4 @@
-// Access to http://localhost:3000/week2/styled-components
+// Access to http://localhost:3000/week2/styled-components/
 
 import React, { VFC } from 'react'
 import styled, { keyframes } from 'styled-components'
