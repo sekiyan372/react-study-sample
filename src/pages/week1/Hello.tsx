@@ -1,9 +1,9 @@
-// Access to http://localhost:3000/weak1/hello
+// Access to http://localhost:3000/week1/hello
 
 import React, { VFC } from 'react'
 import {
   sample,
-} from '~/utils/weak1'
+} from '~/utils/week1'
 
 const App: VFC = () => {
   sample("Hello World!")
