@@ -1,28 +1,15 @@
-// Access to http://localhost:3000
-
 import React, { VFC } from 'react'
-import logo from '~/logo.svg'
-import '~/App.css'
-
+import {
+  sample,
+  ex1,
+  ex2,
+  ex3
+} from '../src/utils/week1'
 const App: VFC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  )
+  sample("Hello World!")
+  ex1("aaa", "bbb")
+  ex2()
+  ex3()
+  return <h1>Hello World!</h1>
 }
-
 export default App
