@@ -1,22 +1,27 @@
 // Access to http://localhost:3000/week2/ex/
 
 import React, { VFC } from 'react'
+import Title from '~/components/week2/TItle'
+import ExChildCard from '~/components/week2/ExChildCard'
 
 const ExData = [
   {
     id: 'fsn',
     title: 'Fate/stay night',
     root: 'セイバールート',
+    img: '../../../public/images.fsn.jpg'
   },
   {
     id: 'ubw',
     title: 'Unlimited Blade Works',
     root: '遠坂凛ルート',
+    img: '../../../public/images.ubw.jpg'
   },
   {
     id: 'hf',
     title: "Heaven's Feel",
     root: '間桐桜ルート',
+    img: '../../../public/images.hf.jpg'
   },
 ]
 
@@ -32,7 +37,16 @@ const ExWeek2: VFC = () => {
 
   return (
     <>
-      <h1>Fateシリーズ</h1>
+      <Title>Fateシリーズ</Title>
+
+      {ExData.map((data) => (
+        <ExChildCard
+          key={data.id}
+          id={data.id}
+          title={data.title}
+          root={data.root}
+        />
+      ))}
     </>
   )
 }
