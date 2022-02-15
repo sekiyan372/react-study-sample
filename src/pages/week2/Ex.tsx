@@ -1,6 +1,7 @@
 // Access to http://localhost:3000/week2/ex/
 
 import React, { VFC } from 'react'
+import ExChild from '~/components/week2/ExChild'
 
 const ExData = [
   {
@@ -33,6 +34,14 @@ const ExWeek2: VFC = () => {
   return (
     <>
       <h1>Fateシリーズ</h1>
+      {ExData.map(data => (
+        <ExChild
+          key={data.id}
+          id={data.id}
+          title={data.title}
+          root={data.root}
+        />
+      ))}
     </>
   )
 }
