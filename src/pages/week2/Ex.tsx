@@ -29,8 +29,6 @@ const ExData = [
 */
 
 const ExWeek2: VFC = () => {
-  console.log(ExData)
-
   return (
     <>
       <h1>Fateシリーズ</h1>

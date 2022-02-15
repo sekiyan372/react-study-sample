@@ -20,10 +20,10 @@ const ExChild: VFC<Props> = ({ id, title, root }) => {
       <Title>{id} {title}</Title>
       <div>{root}</div>
 
-      {/* 画像やり方１ */}
+      {/* 画像やり方1(publicの中の画像を使用) */}
       <img src={`../../images/${id}.jpg`} alt="image" />
 
-      {/* 画像やり方2 */}
+      {/* 画像やり方2(src/images/ の画像を使用) */}
       {id === 'fsn' && (
         <img src={FSN} alt="image" />
       )}
