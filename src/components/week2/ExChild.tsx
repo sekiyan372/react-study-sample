@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { VFC } from 'react'
 import styled from 'styled-components'
 import FSN from "~/images/fsn.jpg"

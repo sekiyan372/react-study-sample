@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { VFC } from 'react'
 
 type Props = {
