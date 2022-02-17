@@ -15,6 +15,7 @@ import ExWeek2 from '~/pages/week2/Ex'
 //week3
 import Count from '~/pages/week3/Count'
 import Form from '~/pages/week3/Form'
+import ExWeek3 from '~/pages/week3/Ex'
 
 const Router: VFC = () => (
   <BrowserRouter>
@@ -34,6 +35,7 @@ const Router: VFC = () => (
       {/* week3 */}
       <Route path="/week3/count" element={<Count />} />
       <Route path="/week3/form" element={<Form />} />
+      <Route path="/week3/ex" element={<ExWeek3 />} />
     </Routes>
   </BrowserRouter>
 )
