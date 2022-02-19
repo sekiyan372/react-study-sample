@@ -21,6 +21,7 @@ import ExWeek3 from '~/pages/week3/Ex'
 import OparationCount from '~/pages/week4/Count'
 import Post from '~/pages/week4/Post'
 import Loop from '~/pages/week4/Loop'
+import ExWeek4 from '~/pages/week4/Ex'
 
 const Router: VFC = () => (
   <BrowserRouter>
@@ -46,6 +47,7 @@ const Router: VFC = () => (
       <Route path="/week4/count" element={<OparationCount />} />
       <Route path="/week4/post" element={<Post />} />
       <Route path="/week4/loop" element={<Loop />} />
+      <Route path="/week4/ex" element={<ExWeek4 />} />
     </Routes>
   </BrowserRouter>
 )
