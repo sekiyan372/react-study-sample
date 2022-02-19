@@ -11,11 +11,7 @@ type Props = {
 }
 
 const View: VFC<Props> = ({ children }) => {
-  return (
-    <ViewElement>
-      {children}
-    </ViewElement>
-  )
+  return <ViewElement>{children}</ViewElement>
 }
 
 export default View

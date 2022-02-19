@@ -32,7 +32,7 @@ const ExWeek2: VFC = () => {
   return (
     <>
       <h1>Fateシリーズ</h1>
-      {ExData.map(data => (
+      {ExData.map((data) => (
         <ExChild
           key={data.id}
           id={data.id}

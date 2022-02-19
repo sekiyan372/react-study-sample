@@ -5,7 +5,7 @@ import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
 
 const Count: VFC = () => {
-  const [count ,setCount] = useState<number>(0)
+  const [count, setCount] = useState<number>(0)
 
   useEffect(() => {
     console.log(`${count}: render constantly`)
@@ -22,10 +22,8 @@ const Count: VFC = () => {
   return (
     <Wrapper>
       <h1>useEffect Sample App</h1>
-      <View>{ count }</View>
-      <button onClick={() => setCount(count + 1) }>
-        +1
-      </button>
+      <View>{count}</View>
+      <button onClick={() => setCount(count + 1)}>+1</button>
     </Wrapper>
   )
 }

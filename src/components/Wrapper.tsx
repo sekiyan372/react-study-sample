@@ -10,11 +10,7 @@ type Props = {
 }
 
 const Wrapper: VFC<Props> = ({ children }) => {
-  return (
-    <WrapElement>
-      {children}
-    </WrapElement>
-  )
+  return <WrapElement>{children}</WrapElement>
 }
 
 export default Wrapper

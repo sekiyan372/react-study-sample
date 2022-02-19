@@ -1,11 +1,6 @@
 // Access to http://localhost:3000/week3/form/
 
-import React, {
-  VFC,
-  useState,
-  FormEvent,
-  ChangeEvent
-} from 'react'
+import React, { VFC, useState, FormEvent, ChangeEvent } from 'react'
 import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
@@ -37,11 +32,7 @@ const Form: VFC = () => {
       <View>【{view}】</View>
 
       <form onSubmit={(e) => handleSubmit(e)}>
-        <Input
-          type="text"
-          value={view}
-          onChange={(e) => handleInput(e)}
-        />
+        <Input type="text" value={view} onChange={(e) => handleInput(e)} />
         <Button>送信</Button>
       </form>
     </Wrapper>

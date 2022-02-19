@@ -5,7 +5,7 @@ import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
 
 const Loop: VFC = () => {
-  const [count1 ,setCount1] = useState<number>(0)
+  const [count1, setCount1] = useState<number>(0)
   const [count2, setCount2] = useState<number>(0)
 
   /* 無限ループ注意 */
@@ -26,12 +26,10 @@ const Loop: VFC = () => {
     <Wrapper>
       <h1>useEffect Bad Sample App</h1>
 
-      <View>{ count1 }</View>
-      <View>{ count2 }</View>
+      <View>{count1}</View>
+      <View>{count2}</View>
 
-      <button onClick={() => setCount1(count1 + 1) }>
-        +1
-      </button>
+      <button onClick={() => setCount1(count1 + 1)}>+1</button>
     </Wrapper>
   )
 }

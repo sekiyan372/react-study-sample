@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 
 const Card = styled.div`
-  margin: 30px
+  margin: 30px;
 `
 
 type Post = {
@@ -31,14 +31,12 @@ const Post: VFC = () => {
     <Wrapper>
       <h1>useEffect API Sample</h1>
       <div>
-        {
-          posts.map(post => (
-            <Card key={post.id}>
-              <div>{post.title}</div>
-              <div>{post.body}</div>
-            </Card>
-          ))
-        }
+        {posts.map((post) => (
+          <Card key={post.id}>
+            <div>{post.title}</div>
+            <div>{post.body}</div>
+          </Card>
+        ))}
       </div>
     </Wrapper>
   )

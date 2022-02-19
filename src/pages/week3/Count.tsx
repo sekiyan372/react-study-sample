@@ -21,13 +21,9 @@ const Count: VFC = () => {
     <Wrapper>
       <View>count number: {num}</View>
 
-      <Button onClick={() => handleClick(1)}>
-        +1
-      </Button>
+      <Button onClick={() => handleClick(1)}>+1</Button>
 
-      <Button onClick={() => handleClick(10)}>
-        +10
-      </Button>
+      <Button onClick={() => handleClick(10)}>+10</Button>
     </Wrapper>
   )
 }

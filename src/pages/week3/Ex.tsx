@@ -42,13 +42,13 @@ const MemoApp: VFC = () => {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    setList([...list, {id: nextId++, title: title, content: content}])
+    setList([...list, { id: nextId++, title: title, content: content }])
     setTitle('')
     setContent('')
   }
 
   const deleteMemo = (id: number) => {
-    const newList = list.filter(memo => memo.id !== id)
+    const newList = list.filter((memo) => memo.id !== id)
     setList(newList)
   }
 
