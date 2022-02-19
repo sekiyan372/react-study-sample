@@ -2,7 +2,7 @@
 
 import React, { VFC, useState, FormEvent } from 'react'
 import styled from 'styled-components'
-import Wrapper from '~/components/week3/Wrapper'
+import Wrapper from '~/components/Wrapper'
 
 const Label = styled.label`
   display: block;

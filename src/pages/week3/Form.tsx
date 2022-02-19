@@ -7,8 +7,8 @@ import React, {
   ChangeEvent
 } from 'react'
 import styled from 'styled-components'
-import Wrapper from '~/components/week3/Wrapper'
-import View from '~/components/week3/View'
+import Wrapper from '~/components/Wrapper'
+import View from '~/components/View'
 
 const Input = styled.input`
   font-size: 2rem;

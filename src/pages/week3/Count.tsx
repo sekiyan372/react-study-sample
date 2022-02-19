@@ -2,8 +2,8 @@
 
 import React, { VFC, useState } from 'react'
 import styled from 'styled-components'
-import Wrapper from '~/components/week3/Wrapper'
-import View from '~/components/week3/View'
+import Wrapper from '~/components/Wrapper'
+import View from '~/components/View'
 
 const Button = styled.button`
   font-size: 2rem;
