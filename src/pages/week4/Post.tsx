@@ -19,12 +19,11 @@ const Post: VFC = () => {
   const [posts, setPosts] = useState<Post[]>([])
 
   useEffect(() => {
-    const fetchPost = async () => {
+    const fetchPost = async (): Promise<Post[]> => {
       const response = await fetch('https://jsonplaceholder.typicode.com/posts')
-      const posts = await response.json()
-      setPosts(posts)
+      return await response.json()
     }
-    fetchPost()
+    fetchPost().then((data) => setPosts(data))
   }, [])
 
   return (
