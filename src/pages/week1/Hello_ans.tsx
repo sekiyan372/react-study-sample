@@ -1,7 +1,7 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import { sample, ex1, ex2, ex3 } from '~/utils/week1_ans'
 
-const App: VFC = () => {
+const App: FC = () => {
   sample('Hello World!')
   ex1('aaa', 'bbb')
   ex2()

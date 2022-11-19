@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 
 type Props = {
   id: number
@@ -6,7 +6,7 @@ type Props = {
   desc: string
 }
 
-const ChildCard: VFC<Props> = ({ id, title, desc }) => {
+const ChildCard: FC<Props> = ({ id, title, desc }) => {
   return (
     <div>
       <h2>

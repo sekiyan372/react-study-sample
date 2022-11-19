@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week2/styled-components/
 
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import styled, { keyframes } from 'styled-components'
 import logo from '~/logo.svg'
 
@@ -40,7 +40,7 @@ const AppLink = styled.a`
   color: #61dafb;
 `
 
-const StyledComponents: VFC = () => {
+const StyledComponents: FC = () => {
   return (
     <App>
       <AppHeader>
@@ -50,8 +50,7 @@ const StyledComponents: VFC = () => {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </AppLink>
       </AppHeader>

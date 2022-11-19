@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week4/post/
 
-import React, { VFC, useState, useEffect } from 'react'
+import React, { FC, useState, useEffect } from 'react'
 import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 
@@ -15,7 +15,7 @@ type Post = {
   body: string
 }
 
-const Post: VFC = () => {
+const Post: FC = () => {
   const [posts, setPosts] = useState<Post[]>([])
 
   useEffect(() => {

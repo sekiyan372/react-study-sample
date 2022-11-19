@@ -1,10 +1,10 @@
 // Access to http://localhost:3000/week4/count/
 
-import React, { VFC, useState, useEffect } from 'react'
+import React, { FC, useState, useEffect } from 'react'
 import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
 
-const Count: VFC = () => {
+const Count: FC = () => {
   const [count, setCount] = useState<number>(0)
 
   useEffect(() => {

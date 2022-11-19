@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 
 const WrapElement = styled.div`
@@ -9,7 +9,7 @@ type Props = {
   children: React.ReactNode
 }
 
-const Wrapper: VFC<Props> = ({ children }) => {
+const Wrapper: FC<Props> = ({ children }) => {
   return <WrapElement>{children}</WrapElement>
 }
 

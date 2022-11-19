@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week2/ex/
 
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 
 const ExData = [
   {
@@ -27,7 +27,7 @@ const ExData = [
                     テンプレートリテラルを使うといい感じに表示できるかも？
 */
 
-const ExWeek2: VFC = () => {
+const ExWeek2: FC = () => {
   console.log(ExData)
   return (
     <>

@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from '~/App'
 
@@ -23,7 +23,7 @@ import Post from '~/pages/week4/Post'
 import Loop from '~/pages/week4/Loop'
 import ExWeek4 from '~/pages/week4/Ex'
 
-const Router: VFC = () => (
+const Router: FC = () => (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />

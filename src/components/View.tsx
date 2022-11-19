@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 
 const ViewElement = styled.div`
@@ -10,7 +10,7 @@ type Props = {
   children: React.ReactNode
 }
 
-const View: VFC<Props> = ({ children }) => {
+const View: FC<Props> = ({ children }) => {
   return <ViewElement>{children}</ViewElement>
 }
 

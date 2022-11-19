@@ -5,18 +5,18 @@
 勉強会で使用するコードをここに公開していきます。
 
 ## 推奨実行環境
-- node: v16系
+- node: v18系
 
 ## 実行コマンド
 ```bash
-# Node.jsの最新のLTSバージョン(現在はv16)をインストール
+# Node.jsの最新のLTSバージョン(現在はv18)をインストール
 $ npm install -g n
 $ n lts
 ```
 
 ```bash
 # パッケージインストール
-$ yarn install
+$ yarn
 
 # 立ち上げ
 $ yarn start

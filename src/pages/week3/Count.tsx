@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week3/count/
 
-import React, { VFC, useState } from 'react'
+import React, { FC, useState } from 'react'
 import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
@@ -10,7 +10,7 @@ const Button = styled.button`
   margin: 30px;
 `
 
-const Count: VFC = () => {
+const Count: FC = () => {
   const [num, setNum] = useState<number>(0)
 
   const handleClick = (value: number) => {

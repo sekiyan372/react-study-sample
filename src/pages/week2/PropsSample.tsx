@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week2/props/
 
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import Title from '~/components/week2/TItle'
 import ChildCard from '~/components/week2/ChildCard'
 
@@ -22,7 +22,7 @@ const SampleData = [
   },
 ]
 
-const PropsSample: VFC = () => {
+const PropsSample: FC = () => {
   return (
     <>
       <Title>サンプルデータ一覧</Title>

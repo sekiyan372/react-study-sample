@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week4/ex/
 
-import React, { VFC, useState, useEffect } from 'react'
+import React, { FC, useState, useEffect } from 'react'
 
 type Todo = {
   userId: number
@@ -9,7 +9,7 @@ type Todo = {
   completed: boolean
 }
 
-const ViewTodos: VFC = () => {
+const ViewTodos: FC = () => {
   const [checked, setChecked] = useState<boolean>(false)
   const [todos, setTodos] = useState<Todo[]>([])
 

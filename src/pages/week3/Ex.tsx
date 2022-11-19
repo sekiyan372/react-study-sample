@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week3/ex/
 
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 
@@ -21,7 +21,7 @@ const Button = styled.button`
   margin: 30px;
 `
 
-const MemoApp: VFC = () => {
+const MemoApp: FC = () => {
   return (
     <Wrapper>
       <h1>Memo App</h1>

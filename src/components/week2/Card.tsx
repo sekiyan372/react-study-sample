@@ -1,6 +1,6 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 
-const Card: VFC = () => {
+const Card: FC = () => {
   return (
     <div>
       <h3>タイトル</h3>

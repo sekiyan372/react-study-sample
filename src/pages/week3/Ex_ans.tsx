@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week3/ex/
 
-import React, { VFC, useState, FormEvent } from 'react'
+import React, { FC, useState, FormEvent } from 'react'
 import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 
@@ -35,7 +35,7 @@ type Memo = {
 
 let nextId = 0
 
-const MemoApp: VFC = () => {
+const MemoApp: FC = () => {
   const [title, setTitle] = useState<string>('')
   const [content, setContent] = useState<string>('')
   const [list, setList] = useState<Memo[]>([])

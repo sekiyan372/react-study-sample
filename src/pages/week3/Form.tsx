@@ -1,6 +1,6 @@
 // Access to http://localhost:3000/week3/form/
 
-import React, { VFC, useState, FormEvent, ChangeEvent } from 'react'
+import React, { FC, useState, FormEvent, ChangeEvent } from 'react'
 import styled from 'styled-components'
 import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
@@ -14,7 +14,7 @@ const Button = styled.button`
   margin: 30px;
 `
 
-const Form: VFC = () => {
+const Form: FC = () => {
   const [view, setView] = useState<string>('')
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

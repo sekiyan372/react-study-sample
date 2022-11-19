@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
 import FSN from '~/images/fsn.jpg'
 import UBW from '~/images/ubw.jpg'
@@ -14,7 +14,7 @@ type Props = {
   root: string
 }
 
-const ExChild: VFC<Props> = ({ id, title, root }) => {
+const ExChild: FC<Props> = ({ id, title, root }) => {
   return (
     <div>
       <Title>

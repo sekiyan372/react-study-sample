@@ -1,10 +1,10 @@
 // Access to http://localhost:3000/week4/loop/
 
-import React, { VFC, useState, useEffect } from 'react'
+import React, { FC, useState, useEffect } from 'react'
 import Wrapper from '~/components/Wrapper'
 import View from '~/components/View'
 
-const Loop: VFC = () => {
+const Loop: FC = () => {
   const [count1, setCount1] = useState<number>(0)
   const [count2, setCount2] = useState<number>(0)
 

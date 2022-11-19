@@ -1,10 +1,10 @@
 // Access to http://localhost:3000
 
-import React, { VFC } from 'react'
+import React, { FC } from 'react'
 import logo from '~/logo.svg'
 import '~/App.css'
 
-const App: VFC = () => {
+const App: FC = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,8 +16,7 @@ const App: VFC = () => {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
       </header>
